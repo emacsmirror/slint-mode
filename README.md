@@ -24,5 +24,7 @@ This is how the "Hello World" example from Slint looks like:
 ## Prerequisites
 
 - Emacs: I've tested this with GNU Emacs 28.2. ymmv. Please file an issue if you run into any problems.
-- [lsp-mode](https://emacs-lsp.github.io/lsp-mode/): Adds LSP support to Emacs. Can be installed via melpa.
 - [slint-lsp](https://github.com/slint-ui/slint/blob/master/tools/lsp/README.md): The slint language server. Follow the link for installation instructions.
+- (*Optional*) [lsp-mode](https://emacs-lsp.github.io/lsp-mode/): LSP support for Emacs (alternative to built-in eglot). Can be installed via melpa.
+
+`slint-mode` should work with both `lsp-mode` and `eglot`.
